@@ -1,0 +1,152 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Plantonistas do Dia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f9f8;
+      color: #003333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0a8f88, #2bb3a9);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 20px;
+    }
+
+    .container {
+      padding: 30px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .turno {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .turno h2 {
+      text-align: center;
+      color: #0a8f88;
+      font-size: 30px;
+      border-bottom: 2px solid #cceeee;
+      padding-bottom: 10px;
+    }
+
+    .categoria {
+      margin-top: 15px;
+    }
+
+    .categoria h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+      color: #006666;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      font-size: 18px;
+    }
+
+    li {
+      padding: 4px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 16px;
+      background: #e6f5f3;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>PLANTONISTAS DO DIA</h1>
+  <p>Hospital Maternidade Instituto Cândida Vargas<br>
+     Segunda-feira, 27 de janeiro de 2026</p>
+</header>
+
+<div class="container">
+
+  <div class="turno">
+    <h2>Manhã</h2>
+
+    <div class="categoria">
+      <h3>Médicos</h3>
+      <ul>
+        <li>Dr. João Silva</li>
+        <li>Dra. Maria Santos</li>
+      </ul>
+    </div>
+
+    <div class="categoria">
+      <h3>Enfermeiros</h3>
+      <ul>
+        <li>Enf. Ana Lima</li>
+      </ul>
+    </div>
+
+    <div class="categoria">
+      <h3>Técnicos de Enfermagem</h3>
+      <ul>
+        <li>Carlos Pereira</li>
+      </ul>
+    </div>
+
+    <div class="categoria">
+      <h3>Obstetrícia</h3>
+      <ul>
+        <li>Juliana Rocha</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="turno">
+    <h2>Tarde</h2>
+    <p style="text-align:center;">(Preencher conforme escala)</p>
+  </div>
+
+  <div class="turno">
+    <h2>Noite</h2>
+    <p style="text-align:center;">(Preencher conforme escala)</p>
+  </div>
+
+</div>
+
+<footer>
+  Sistema de informação institucional – SUS
+</footer>
+
+</body>
+</html>
